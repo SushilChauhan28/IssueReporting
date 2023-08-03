@@ -1,6 +1,6 @@
 name: 🐞 Bug
 description: File a bug/issue
-title: "Bug title"
+title: 
 labels: ["Bug", "Needs Triage"]
 body:
 - type: dropdown
@@ -28,7 +28,7 @@ body:
   attributes:
     label: WCAG
     multiple: true
-    description: WCAG Success Criteria with Conformance level.
+    description: Set the WCAG Success Criteria with Conformance level.
     options:
       -  1.1.1	Non-text Content	A
       -  1.2.1	Audio-only and Video-only (Pre-recorded)	A
