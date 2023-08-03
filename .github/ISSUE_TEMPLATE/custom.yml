@@ -1,6 +1,5 @@
 name: 🐞 Bug
 description: File a bug/issue
-title: 
 labels: ["Bug", "Needs Triage"]
 body:
 - type: dropdown
