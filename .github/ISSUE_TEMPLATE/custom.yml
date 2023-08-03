@@ -1,15 +1,16 @@
 name: 🐞 Bug
 description: File a bug/issue
-title: "[BUG] <title>"
+title: ""
 labels: ["Bug", "Needs Triage"]
 body:
-- type: checkboxes
+- type: dropdown
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    label: Status
+    description: Please set the current status of the issue.
     options:
-    - label: I have searched the existing issues
-      required: true
+      -  Open
+      -  Partially Fixed
+      -  Resolved
 
 - type: dropdown
   attributes:
