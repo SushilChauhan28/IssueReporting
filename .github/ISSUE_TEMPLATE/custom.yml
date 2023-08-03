@@ -29,6 +29,7 @@ body:
     multiple: true
     description: Set the WCAG Success Criteria with Conformance level.
     options:
+      -  Best Practice 
       -  1.1.1	Non-text Content	A
       -  1.2.1	Audio-only and Video-only (Pre-recorded)	A
       -  1.2.2	Captions (Pre-recorded)	A
